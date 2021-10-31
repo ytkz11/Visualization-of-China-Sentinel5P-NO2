@@ -2,7 +2,7 @@ Visualization of No2 air pollution data in Sentinel 5P China
 
 If it helps you, please click Star.
 
-- [x] Visualization of China region
+- [ ] Visualization of China region
 
 - [x] Conversion from NC to TIF
 
