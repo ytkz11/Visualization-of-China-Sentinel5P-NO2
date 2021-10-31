@@ -136,10 +136,10 @@ def basemap_show(lon1,lat1,data, no2_units):
 
 
 if __name__ == '__main__':
-    my_example_nc_file1 = r'E:\my_gui\sentinel5p\S5P_NRTI_L2__NO2____20210607T065201_20210607T065701_18910_01_010400_20210607T073747.nc'
-    my_example_nc_file2 = r'E:\my_gui\sentinel5p\S5P_NRTI_L2__NO2____20210607T065701_20210607T070201_18910_01_010400_20210607T073816.nc'
-    my_example_nc_file3 = r'E:\my_gui\sentinel5p\S5P_NRTI_L2__NO2____20210607T051201_20210607T051701_18909_01_010400_20210607T055650.nc'
-    my_example_nc_file4 = r'E:\my_gui\sentinel5p\S5P_NRTI_L2__NO2____20210607T051701_20210607T052201_18909_01_010400_20210607T055916.nc'
+    my_example_nc_file1 = r'E:\github\Visualization-of-China-Sentinel5P-NO2\data\S5P_NRTI_L2__NO2____20210607T065201_20210607T065701_18910_01_010400_20210607T073747.nc'
+    my_example_nc_file2 = r'E:\github\Visualization-of-China-Sentinel5P-NO2\data\S5P_NRTI_L2__NO2____20210607T065701_20210607T070201_18910_01_010400_20210607T073816.nc'
+    my_example_nc_file3 = r'E:\github\Visualization-of-China-Sentinel5P-NO2\data\S5P_NRTI_L2__NO2____20210607T051201_20210607T051701_18909_01_010400_20210607T055650.nc'
+    my_example_nc_file4 = r'E:\github\Visualization-of-China-Sentinel5P-NO2\data\S5P_NRTI_L2__NO2____20210607T051701_20210607T052201_18909_01_010400_20210607T055916.nc'
 
     list_file = [my_example_nc_file1,my_example_nc_file2, my_example_nc_file3, my_example_nc_file4]
     linear_process(list_file)
